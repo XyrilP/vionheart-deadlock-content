@@ -1,0 +1,92 @@
+{
+  "id": "vionheart-deadlock-content",
+  "title": "Vionheart Content (Deadlock)",
+  "version": "9.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Xyril P.",
+      "discord": "xyrilp.",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "vionheart-deadlock-items",
+      "label": "Vionheart Deadlock Items",
+      "path": "packs/vionheart-deadlock-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Vionheart Content",
+      "color": "#c864c8",
+      "sorting": "a",
+      "folders": [
+        {
+          "name": "Deadlock",
+          "sorting": "a",
+          "color": "#ece0c8",
+          "packs": [
+			"vionheart-deadlock-items"
+          ],
+          "folders": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+"flags": {
+	"vionheart-deadlock-content": {
+		"pf2e-homebrew": {
+			"skills": {
+				"additional": {
+				}
+			},
+			"weaponGroups": {
+			},
+			"baseWeapons": {
+			},
+			"equipmentTraits": {
+				"weapon-relic": {
+					"label": "Weapon Relic",
+					"description": ""
+				},
+				"vitality-relic": {
+					"label": "Vitality Relic",
+					"description": ""
+				},
+				"spirit-relic": {
+					"label": "Spirit Relic",
+					"description": ""
+				}
+			},
+			"featTraits": {
+			}
+		}
+	}
+},
+  "description": ""
+}
