@@ -3,7 +3,7 @@
   "title": "Vionheart Content (Deadlock)",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-deadlock-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-deadlock-content/archive/refs/heads/main.zip",
-  "version": "9.0",
+  "version": "9.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -30,6 +30,18 @@
       },
       "system": "pf2e",
       "flags": {}
+    },
+	{
+      "name": "vionheart-deadlock-effects",
+      "label": "Vionheart Deadlock Effects",
+      "path": "packs/vionheart-deadlock-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -43,7 +55,8 @@
           "sorting": "a",
           "color": "#ece0c8",
           "packs": [
-			"vionheart-deadlock-items"
+			"vionheart-deadlock-items",
+			"vionheart-deadlock-effects"
           ],
           "folders": []
         }
